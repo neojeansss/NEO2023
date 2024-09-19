@@ -1,0 +1,18 @@
+resources/views/components/app.blade.php
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> - install to project
+
+resources/views/admin/faqs/create.blade.php
+resources/views/admin/faqs/edit.blade.php
+radio button faq - design
+
+merchandise and event FE BE 
+
+submissions and qualification FE BE
+
+CHECK IF SPEAKER 2 HAVE NOT FILL YET
+
+error message if email unique participant
+
+revisi database: make sure a submission is related to a registration detail (team) and a qualification
+
+logo invoice ttd invoice layout logo belum selesai

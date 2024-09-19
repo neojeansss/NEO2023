@@ -1,0 +1,148 @@
+body {
+    font-family: Glacial-Regular;
+}
+
+h4.text-primary {
+    color: $primary-color !important;
+}
+
+.btn-primary {
+    background-color: $primary-color !important;
+    border: 1px solid $primary-color !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: $active-primary-color !important;
+    border: 1px solid $active-primary-color !important;
+    color: white !important;
+}
+
+.btn-outline-primary {
+    background-color: transparent !important;
+    border: 1px solid $primary-color !important;
+    color: $primary-color !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: $active-primary-color !important;
+    border: 1px solid $primary-color !important;
+    color: white !important;
+}
+
+.btn-outline-gray {
+    background-color: transparent !important;
+    border: 1px solid $gray-color !important;
+    color: black !important;
+}
+
+.btn-outline-gray:hover {
+    background-color: $active-primary-color !important;
+    border: 1px solid $primary-color !important;
+    color: white !important;
+}
+
+input[type="radio"].btn-check + label{
+    background-color: transparent !important;
+    border: 1px solid $gray-color !important;
+    color: black !important;
+}
+input[type="radio"].btn-check:checked + label{
+    background-color: $primary-color !important;
+    border: 1px solid $primary-color !important;
+    color: white !important;
+}
+
+//ADMIN
+//card table admin
+.card-custom {
+    border: 1px solid $gray-color !important;
+    box-shadow: 0 1px 6px 0 var(--color-shadow, rgba(79, 68, 61, 0.1));
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+// ------ SIDEBAR ------
+.sidebar {
+    width: 13rem;
+    position: fixed;
+    height: 100%;
+    background-color: white;
+    color: gray;
+    overflow: scroll;
+}
+
+.sidebar-content {
+    font-size: 13px;
+    padding: 1.5rem .25rem 4.5rem .25rem;
+}
+
+.sidebar .nav .nav-link.active {
+    color: black;
+}
+
+.page-content {
+    flex-grow: 1;
+    margin-left: 13rem;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+
+.sidebar::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: gray;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+.sidebar::-webkit-scrollbar-thumb:active {
+    background: gray;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+.sidebar::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-track:active {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+// Tab Competition
+#competitionTab .nav-link,
+#faqTab .nav-link,
+#tcTab .nav-link {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10rem;
+    color: black;
+}
+
+#competitionTab .nav-link.active,
+#faqTab .nav-link.active,
+#tcTab .nav-link.active {
+    background-color: rgb(255, 113, 78);
+    border: 1px solid rgb(255, 73, 18);
+    border-radius: 10rem;
+    color: white;
+}
